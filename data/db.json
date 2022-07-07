@@ -1,0 +1,17 @@
+{
+    "blogs": [
+      {
+        "title": "My First Blog",
+        
+        "author": "Abdullah",
+        "id": 1
+      },
+      {
+        "title": "Opening Party!",
+        
+        "author": "Zein",
+        "id": 2
+      }
+    ]
+  }
+  
