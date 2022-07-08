@@ -4,6 +4,7 @@ import HomePage from "./component/homepage/home";
 import ChangeName from "./component/homepage/change";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Create from "./create";
+import BlogDetails from "./blog-details";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
             </Route>
             <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/blogs/:id">
+              <BlogDetails />
             </Route>
           </Switch>
         </div>
